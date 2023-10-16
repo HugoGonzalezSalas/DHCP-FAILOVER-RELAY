@@ -12,13 +12,13 @@ enp0s8= red interna (Servidor DHCP)
 4º Configuramos los siguientes ficheros:
 
 - /etc/network/interfaes
-![image](contenidos/1.png)
+![image](/contenidos/1.png)
 
 - /etc/default/isc-dhcp-server
-![image](contenidos/2.png)
+![image](/contenidos/2.png)
 
 - /etc/dhcp/dhcpd.conf
-![image](contenidos/3.png)
+![image](/contenidos/3.png)
 
 Hacemos “systemctl restart networking” y “systemctl restart isc-dhcp-server”
 
@@ -26,11 +26,11 @@ Creamos otra máquina con red interna para que nuestro servidor le de IP
 
 ## PARA QUE DE PING EN LA CLIENTE HAY QUE HACER EN EL SERVIDOR:
 
-![image](contenidos/4.png)
+![image](/contenidos/4.png)
 
 ## Y EN EL CLIENTE:
 
-![image](contenidos/5.png)
+![image](/contenidos/5.png)
 
 ## CONFIGURACION DE FAILOVER:
 Clonamos el servidor, le cambiamos la ip a uno de ellos (para que no tengan la misma) y
@@ -38,11 +38,11 @@ hacemos lo siguiente:
 
 ## FAILOVER PRIMARIO
 - /etc/dhcp/dhcpd.conf
-![image](contenidos/6.png)
+![image](/contenidos/6.png)
 
 ## FAILOVER SECUNDARIO
 - /etc/dhcp/dhcpd.conf
-![image](contenidos/7.png)
+![image](/contenidos/7.png)
 
 
 Hacemos ”systemctl restart isc-dhcp-server.service” y estaría listo.
