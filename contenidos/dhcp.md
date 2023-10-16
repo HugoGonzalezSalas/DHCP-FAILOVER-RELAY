@@ -20,6 +20,8 @@ enp0s8= red interna (Servidor DHCP)
 
 
 - /etc/dhcp/dhcpd.conf
+
+  
   ![image](/contenidos/3.png)
 
 
