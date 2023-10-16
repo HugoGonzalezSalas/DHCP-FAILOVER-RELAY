@@ -14,11 +14,15 @@ enp0s8= red interna (Servidor DHCP)
 - /etc/network/interfaes
 ![image](/contenidos/1.png)
 
+
 - /etc/default/isc-dhcp-server
 ![image](/contenidos/2.png)
 
+
 - /etc/dhcp/dhcpd.conf
 ![image](/contenidos/3.png)
+
+
 
 Hacemos “systemctl restart networking” y “systemctl restart isc-dhcp-server”
 
