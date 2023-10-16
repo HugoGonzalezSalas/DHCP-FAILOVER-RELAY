@@ -53,6 +53,6 @@ configuramos el fichero:
 - systemctl restart networking
 - ip a (comprobamos que nos ha dado la ip bien de nuevo)
   
-![image](/contenidos/18.png)
+![image](/contenidos/17.png)
 
 Ya estaria todo configurado
