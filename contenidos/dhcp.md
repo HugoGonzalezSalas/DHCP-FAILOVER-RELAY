@@ -48,6 +48,8 @@ hacemos lo siguiente:
 
 ## FAILOVER SECUNDARIO
 - /etc/dhcp/dhcpd.conf
+
+  
 ![image](/contenidos/7.png)
 
 
