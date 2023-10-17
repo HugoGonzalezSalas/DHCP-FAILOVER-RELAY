@@ -1,3 +1,3 @@
-[Script Failover Primario](/contenidos/failover1.sh)
-[Script Failover Secundario](/contenidos/failover2.sh)
-[Script Cliente](/contenidos/cleintefailover.sh)
+- [Script Failover Primario](/contenidos/failover1.sh)
+- [Script Failover Secundario](/contenidos/failover2.sh)
+- [Script Cliente](/contenidos/cleintefailover.sh)
