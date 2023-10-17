@@ -15,8 +15,8 @@ Creamos un servidor dhcp y lo configuramos :
 
 ## Configurcion Relay
 Configuramos una nueva maquina con dos redes internas ( al principio pondremos una en adaptador puente para instalar el isc-dhcp-relay)
-1º instalamos el isc-dhcp-relay
-2º Configuramos los ficheros 
+- 1º instalamos el isc-dhcp-relay
+- 2º Configuramos los ficheros 
 - /etc/network/interfaces
   
 ![image](/contenidos/11.png)
