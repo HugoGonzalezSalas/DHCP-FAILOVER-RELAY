@@ -55,4 +55,7 @@ hacemos lo siguiente:
 
 Hacemos ”systemctl restart isc-dhcp-server.service” y estaría listo.
 
+- [Script Failover Primario](/contenidos/failover1.sh)
+- [Script Failover Secundario](/contenidos/failover2.sh)
+- [Script Cliente](/contenidos/clientefailover.sh)
   
