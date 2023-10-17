@@ -73,4 +73,14 @@ INTERFACESv4="enp0s8"
 INTERFACESv6=""
 EOF
 
+ifdown enp0s3
+ifdown enp0s8
+ifup enp0s3
+ifup enp0s8
+systemctl restart networking.service
+systemctl restart isc-dhcp-server.service
 
+sysctl -w net.ipv4.ip_forward=1
+iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE
+apt install iptables-persistent
+systemctl restart isc-dhcp-server.service
