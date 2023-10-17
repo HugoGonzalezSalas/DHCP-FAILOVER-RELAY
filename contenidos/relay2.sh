@@ -25,3 +25,10 @@ EOF
 cat <<EOF >>/etc/sysctl.conf
 net.ipv4.ip_forward=1
 EOF
+
+ifdown enp0s3
+ifdown enp0s8
+ifup enp0s3
+ifup enp0s8
+systemctl restart networking.service
+systemctl restart isc-dhcp-server.service
