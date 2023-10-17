@@ -56,3 +56,6 @@ configuramos el fichero:
 ![image](/contenidos/17.png)
 
 Ya estaria todo configurado
+
+- [Script DHCP](/contenidos/relay1.sh)
+- [Script Relay](/contenidos/relay2.sh)
