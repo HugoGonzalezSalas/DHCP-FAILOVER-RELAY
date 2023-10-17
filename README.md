@@ -2,7 +2,7 @@
 ## Contenido.
 - [DHCP + FAILOVER](/contenidos/dhcp.md)
 - [DHCP + RELAY](/contenidos/relay.md)
-- [Script FAILOVER](/contenidos/failover.sh)
+- [Script FAILOVER](/contenidos/failoverscript.md)
 - [Script RELAY](/contenidos/relay.sh)
 ## Autor.
 
