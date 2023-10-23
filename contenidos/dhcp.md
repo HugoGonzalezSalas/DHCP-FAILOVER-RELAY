@@ -12,10 +12,12 @@ enp0s8= red interna (Servidor DHCP)
 4º Configuramos los siguientes ficheros:
 
 - /etc/network/interfaes
+- 
   ![image](/contenidos/1.png)
 
 
 - /etc/default/isc-dhcp-server
+- 
   ![image](/contenidos/2.png)
 
 
